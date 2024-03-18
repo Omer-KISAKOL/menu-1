@@ -1,3 +1,4 @@
+
 body, html {
     margin: 0;
     padding: 0;
@@ -31,7 +32,37 @@ body, html {
     margin-bottom: 0;
 }
 
-img{
-    width: 300px;
-    height: 600px;
+/*img{*/
+/*    width: 300px;*/
+/*    height: 600px;*/
+/*}*/
+
+
+
+
+
+
+.card {
+    margin-top: 20px;
+    align-items: center;
 }
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
