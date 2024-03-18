@@ -22,7 +22,7 @@ container.addEventListener('mousemove', (e) => {
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - container.offsetLeft;
-    const walk = (x - startX) * 2; // Scroll hızı
+    const walk = (x - startX) * 6; // Scroll hızı
     container.scrollLeft = scrollLeft - walk;
     container.style.cursor = 'grabbing';
 });

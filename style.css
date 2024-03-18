@@ -11,7 +11,7 @@ body, html {
     display: flex;
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
-    transition: transform 0.5s ease; /* Geçiş efekti */
+    transition: transform 5s ease; /* Geçiş efekti */
 }
 
 .page {
