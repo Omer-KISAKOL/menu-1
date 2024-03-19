@@ -5,6 +5,7 @@ let isDown = false;
 let startX;
 let scrollLeft;
 
+
 container.addEventListener('mousedown', (e) => {
     isDown = true;
     startX = e.pageX - container.offsetLeft;
@@ -46,7 +47,4 @@ container.addEventListener('touchmove', (e) => {
     const x = e.touches[0].pageX - container.offsetLeft;
     const walk = (x - startX) * 3; // Scroll hızı
     container.scrollLeft = scrollLeft - walk;
-});
-container.addEventListener('transitionend', () => {
-    container.style.cursor = 'grab';
 });
