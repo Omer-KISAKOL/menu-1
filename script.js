@@ -1,50 +1,22 @@
 
+$(document).ready(function(){
+    $('#owl-carousel').owlCarousel({
+        loop:false,
+        items:3,
+        margin:10,
+        nav:false,
+        dots: false,
+        mouseDrag:true,
+        touchDrag: true,
+        center: true,
 
-const container = document.getElementById('container');
-let isDown = false;
-let startX;
-let scrollLeft;
+        responsive:{
+            0:{
+                items:1
+            },
+            2000:{
+                items:1
+            },
 
-
-container.addEventListener('mousedown', (e) => {
-    isDown = true;
-    startX = e.pageX - container.offsetLeft;
-    scrollLeft = container.scrollLeft;
-    container.style.cursor = 'grabbing';
-});
-
-container.addEventListener('mouseleave', () => {
-    isDown = false;
-    container.style.cursor = 'grab';
-});
-
-container.addEventListener('mouseup', () => {
-    isDown = false;
-    container.style.cursor = 'grab';
-});
-
-container.addEventListener('mousemove', (e) => {
-    if (!isDown) return;
-    e.preventDefault();
-    const x = e.pageX - container.offsetLeft;
-    const walk = (x - startX) * 3; // Scroll hızı
-    container.scrollLeft = scrollLeft - walk;
-});
-
-container.addEventListener('touchstart', (e) => {
-    isDown = true;
-    startX = e.touches[0].pageX - container.offsetLeft;
-    scrollLeft = container.scrollLeft;
-});
-
-container.addEventListener('touchend', () => {
-    isDown = false;
-});
-
-container.addEventListener('touchmove', (e) => {
-    if (!isDown) return;
-    e.preventDefault();
-    const x = e.touches[0].pageX - container.offsetLeft;
-    const walk = (x - startX) * 3; // Scroll hızı
-    container.scrollLeft = scrollLeft - walk;
-});
+        }
+    });});
