@@ -1,33 +1,42 @@
-
+h1{
+  font-size: 10px;
+}
+*{
+  font-size: 9px;
+}
 
 
 .menu-box {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   justify-content: center;
-  margin: 50px 0;
+  margin: 30px 20px;
 
-}
-
-.bg-img {
-  background-color: #f8f9fa;
-  background-image: url('assets/menu1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
 }
 
 .menu-list .menu-item {
   font-size: 18px;
   color: #333;
   background-color: rgba(255, 255, 255, 0.8); /* Menü öğeleri için hafif saydamlık */
-  margin-bottom: 2px; /* Menü öğeleri arasında boşluk */
+  margin-bottom: 2px;
 }
 
 .food{
-  margin: 30px 15px;
+  display: block;
+  margin: 10px 15px;
+
 }
+.food_1{
+  padding-top: 80px;
+}
+
+.name-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/**/
 /*  .heading {*/
 /*    display: -webkit-box;*/
 /*    display: -ms-flexbox;*/
