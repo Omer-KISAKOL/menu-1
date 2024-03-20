@@ -59,4 +59,15 @@ img{
   .food_2{
     padding-top: 80px;
   }
+  .menu-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    margin: 30px 32px;
+  }
+  .menu-box_1{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 30px 32px;
+  }
 }
