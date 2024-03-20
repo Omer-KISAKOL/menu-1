@@ -1,10 +1,11 @@
-h1{
-  font-size: 10px;
-}
+
 *{
   font-size: 9px;
 }
 
+h1{
+  font-size: 10px;
+}
 
 .menu-box {
   display: grid;
@@ -13,7 +14,12 @@ h1{
   margin: 30px 20px;
 
 }
-
+.menu-box_1{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  margin: 30px 20px;
+}
 .menu-list .menu-item {
   font-size: 18px;
   color: #333;
@@ -29,167 +35,20 @@ h1{
 .food_1{
   padding-top: 80px;
 }
-
+.food_2{
+  padding-top: 60px;
+}
 .name-box{
   display: flex;
   justify-content: space-between;
 }
+.info-box{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted black;
+}
 
-
-/**/
-/*  .heading {*/
-/*    display: -webkit-box;*/
-/*    display: -ms-flexbox;*/
-/*    display: flex;*/
-/*    -webkit-box-pack: center;*/
-/*    -ms-flex-pack: center;*/
-/*    justify-content: center;*/
-/*    -webkit-box-align: center;*/
-/*    -ms-flex-align: center;*/
-/*    align-items: center;*/
-/*    -webkit-box-orient: vertical;*/
-/*    -webkit-box-direction: normal;*/
-/*    -ms-flex-direction: column;*/
-/*    flex-direction: column;*/
-/*    padding: 20px;*/
-/*    margin-bottom: 10px;*/
-/*}*/
-
-/*  .heading h1 {*/
-/*    font-size: 40px;*/
-/*    letter-spacing: 5px;*/
-/*    margin: 10px;*/
-/*    color: #0c1527;*/
-/*}*/
-
-/*  .heading h1::-moz-selection {*/
-/*    background: #b8864e;*/
-/*}*/
-
-/*  .heading h1::selection {*/
-/*    background: #b8864e;*/
-/*}*/
-
-/*  .heading .hr {*/
-/*    height: 4px;*/
-/*    border-radius: 10px;*/
-/*    max-width: 80px;*/
-/*    background: #b8864e;*/
-/*}*/
-
-/*  .filter-box {*/
-/*    display: -webkit-box;*/
-/*    display: -ms-flexbox;*/
-/*    display: flex;*/
-/*    -webkit-box-pack: center;*/
-/*    -ms-flex-pack: center;*/
-/*    justify-content: center;*/
-/*    -webkit-box-align: center;*/
-/*    -ms-flex-align: center;*/
-/*    align-items: center;*/
-/*    margin-bottom: 50px;*/
-/*}*/
-
-/*  .filter-box div {*/
-/*    padding: 3px 10px;*/
-/*    border: 1px solid;*/
-/*    border-color: #b8864e #000000 #000000 #b8864e;*/
-/*    border-radius: 5px;*/
-/*    margin: 0 10px;*/
-/*    color: #b8864e;*/
-/*    cursor: pointer;*/
-/*}*/
-
-
-
-/*  .menu-box .food {*/
-/*    display: -webkit-box;*/
-/*    display: -ms-flexbox;*/
-/*    display: flex;*/
-/*    margin: 20px 15px;*/
-
-
-/*}*/
-
-/*   .food .img-box {*/
-/*    max-height: 160px;*/
-/*    max-width: 300px;*/
-/*    border: 3px solid #b8864e;*/
-/*    border-radius: 5px;*/
-/*    overflow: hidden;*/
-/*    margin-right: 20px;*/
-/*}*/
-
-/*!* .food .img-box img {*!*/
-/*!*    height: 100%;*!*/
-/*!*    width: 100%;*!*/
-/*!*    -o-object-fit: cover;*!*/
-/*!*    object-fit: cover;*!*/
-/*!*}*!*/
-
-/*!*  .food .info {*!*/
-/*!*    width: 400px;*!*/
-/*!*    font-size: 15px;*!*/
-/*!*}*!*/
-
-/*  .menu-box .food .info .name-box {*/
-/*    display: -webkit-box;*/
-/*    display: -ms-flexbox;*/
-/*    display: flex;*/
-/*    -webkit-box-pack: justify;*/
-/*    -ms-flex-pack: justify;*/
-/*    justify-content: space-between;*/
-/*    letter-spacing: 2px;*/
-/*    font-weight: 600;*/
-/*    margin-bottom: 15px;*/
-/*    padding-bottom: 5px;*/
-/*    border-bottom: 1px solid #a5afb8;*/
-/*}*/
-
-/*  .menu-box .food .info .name-box .name {*/
-/*    color: #0c1527;*/
-/*    !*width: 100%;*!*/
-/*}*/
-
-/*  .menu-box .food .info .name-box .name::-moz-selection {*/
-/*    background: #b8864e;*/
-/*}*/
-
-/*  .menu-box .food .info .name-box .name::selection {*/
-/*    background: #b8864e;*/
-/*}*/
-
-/*  .menu-box .food .info .name-box .price {*/
-/*    color: #b8864e;*/
-/*}*/
-
-/*  .menu-box .food .info .name-box .price::-moz-selection {*/
-/*    background: #b8864e;*/
-/*    color: #ffffff;*/
-/*}*/
-
-/*  .menu-box .food .info .name-box .price::selection {*/
-/*    background: #b8864e;*/
-/*    color: #ffffff;*/
-/*}*/
-
-/*  .menu-box .food .info .food-detail p {*/
-/*    color: #6c7a97;*/
-/*}*/
-
-/*  .menu-box .food .info .food-detail p::-moz-selection {*/
-/*    background: #b8864e;*/
-/*    color: #ffffff;*/
-/*}*/
-
-/*  .menu-box .food .info .food-detail p::selection {*/
-/*    background: #b8864e;*/
-/*    color: #ffffff;*/
-/*}*/
-
-
-
-
-/*.menu-list .menu-item:last-child {*/
-/*    border-bottom: none;*/
-/*}*/
+.h1{
+  padding-top: 60px;
+  text-align: center;
+}
